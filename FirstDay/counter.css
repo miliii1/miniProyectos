@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to right, #b2fefa, #0ed2f7);
+    text-align: center;
+    padding: 8px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.title {
+    font-size: 60px;
+    margin-top: 115px;
+}
+
+p {
+    font-size: 80px;
+    margin-top: 50px;
+}
+button {
+    margin-top: 40px;
+    width: 85px;
+    height: 50px;
+    background-color: #4c26f7;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+button:hover {
+    background-color: #2302b9e1;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(81, 13, 238, 0.699);
+    transform: translateY(-0.25em);
+}
+
+.space {
+  width: 4px;
+  height: auto;
+  display: inline-block;
+}
